@@ -1,4 +1,4 @@
 [
-{"title":"Lobby","isOfficial":true,"autojoin":true,"auth":{"anrinn":"$","anrindas":"&","anrinryan":"#"},"introMessage":"<h2><center>Welcome!<br>Under Construction!</center></h2>,"desc":"Sit back and relax!"},
+{"title":"Lobby","isOfficial":true,"autojoin":true,"auth":{"anrinn":"$","anrindas":"&","anrinryan":"#"},"introMessage":"<h2><center>Welcome!<br>Under Construction!</center></h2>","desc":"Sit back and relax!"},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true}
 ]
