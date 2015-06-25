@@ -29,7 +29,6 @@ Users.User.prototype.getIdentity = function (roomid) {
 
 var commands = exports.commands = {
 	
-	exports.ip: '127.3.3.129'
 	version: function (target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox("Server version: <b>" + CommandParser.package.version + "</b>");
