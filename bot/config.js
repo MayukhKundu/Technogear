@@ -4,8 +4,8 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'http://still-springs-9179.herokuapp.com-80.psim.us/';
-exports.port = 8000;
+exports.server = 'mudkipguy.herokuapp.com';
+exports.port = 80;
 
 // This is the server id.
 // To know this one, you should check where the AJAX call 'goes' to when you
@@ -13,12 +13,12 @@ exports.port = 8000;
 // For example, on the Smogon server, it will say somewhere in the URL
 // ~~showdown, meaning that the server id is 'showdown'.
 // If you really don't know how to check this... run the said script above.
-exports.serverid = 'cosmos';
+exports.serverid = 'technogear';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'CosmosBot';
-exports.pass = '/I4FHzXNUcKq';
+exports.nick = 'The Normal Bot';
+exports.pass = 'aaaaaa';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
@@ -33,11 +33,11 @@ exports.privaterooms = ['staff'];
 // Note that using / and ! might be 'dangerous' since these are used in
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
-exports.commandcharacter = '.';
+exports.commandcharacter = '-';
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
-exports.defaultrank = '@';
+exports.defaultrank = '%';
 
 // Whether this file should be watched for changes or not.
 // If you change this option, the server has to be restarted in order for it to
@@ -62,7 +62,7 @@ exports.debuglevel = 3;
 exports.excepts = [];
 
 // Whitelisted users are those who the bot will not enforce moderation for.
-exports.whitelist = ['PokeCommBot'];
+exports.whitelist = ['The Normal Bot'];
 
 // Add a link to the help for the bot here. When there is a link here, .help and .guide
 // will link to it.
